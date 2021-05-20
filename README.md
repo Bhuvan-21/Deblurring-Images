@@ -27,6 +27,13 @@ Face Detection
 For this task, I have used opencv haarcascades and given a 10% margin.
 Currently I am only doing this for a single face but it can be easily extended into all the faces found using a loop.
 
+Testing:
+clonse the repository
+cd Deblurring-Images
+cd Testing
+python test.py path_to_image
+
+
 Results (Validation Data)
 
 ![Alt text](Results/01.png?raw=true "Title")
