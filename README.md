@@ -14,7 +14,8 @@ For Discriminator, the loss was Binary Cross Entropy only.
 
 For Generator, the loss had
 BCE for Disc output
-Pixel wise loss, mean squared error : torch.mean((high-out)**2)
+Pixel wise loss, mean squared error : torch.mean((high-out)^2)
+
 Standard deviation
 
 Standard Deviation term was used to prevent the pixel values converging to 0.
@@ -27,11 +28,11 @@ Face Detection
 For this task, I have used opencv haarcascades and given a 10% margin.
 Currently I am only doing this for a single face but it can be easily extended into all the faces found using a loop.
 
-Testing:
-clonse the repository
-cd Deblurring-Images
-cd Testing
-python test.py path_to_image
+Testing:\n
+clonse the repository\n
+cd Deblurring-Images\n
+cd Testing\n
+python test.py path_to_image\n
 
 
 Results (Validation Data)
